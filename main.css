@@ -10,6 +10,7 @@
     position: absolute;
     display: none;
     text-align: center;
+    overflow: hidden;
 }
 
 .tag {
@@ -25,6 +26,7 @@
     flex-wrap: wrap;
     max-height: 45vh;
     margin: 0 5vh;
+    overflow: hidden;
 }
 
 #welcomeButtons {
@@ -33,8 +35,29 @@
 
 #playMusic {
     display: none;
+    position: absolute;
+    text-align: center;
+    left:0;
+    right: 0;
 }
 
 #editSongs {
+    position: absolute;
     display: none;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+#songs {
+    text-align: left;
+}
+
+
+#editButtons {
+    
+}
+
+ul {
+    list-style-type: none;
 }
