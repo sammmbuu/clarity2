@@ -108,7 +108,7 @@
             Listen
           </button>
           <br><br>
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 80%">
+          <button type="button" onclick="songEdit()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 80%">
             Edit Songs and Tags
           </button>
         </div>
@@ -119,8 +119,26 @@
       <button type="button" onclick="editTags()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 40%">
         Edit Tags
       </button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 40%">
+      <button type="button" onclick="songEdit()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 40%">
         Edit Songs
+      </button>
+    </div>
+    <div id="editSongs">
+      <h2>Edit Songs</h2>
+      <div id="songs">
+        <div>
+          
+          <ul>Song Name
+            <li>Tag 1</li>
+            <li>Tag 2</li>
+          </ul>
+        </div>
+      </div>
+      <button type="button" onclick="editTags()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 40%">
+        Edit Tags
+      </button>
+      <button type="button" onclick="spotifyPlay()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="width: 40%">
+        Play Music
       </button>
     </div>
     <script type="text/javascript" src="./main.js"></script>
