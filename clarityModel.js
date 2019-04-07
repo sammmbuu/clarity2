@@ -6,6 +6,7 @@ class ClarityModel {
         self.tags = ko.observableArray([]);
         self.songs = ko.observableArray(songList);
         
+        
         self.playlist = ko.observableArray([]);
         
         self.createPlaylist = function() 

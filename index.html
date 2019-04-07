@@ -9,6 +9,7 @@
     <script type='text/javascript' src="./knockout.js"></script>
     <script type="text/javascript" src="./clarityModel.js"></script>
     <script type="text/javascript" src="./initOnLoad.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body onload="InitLoad()" id="apply">
     <div id="login">
@@ -92,7 +93,7 @@
               <span data-bind="text: name"></span>
               <ul data-bind="foreach: songTags">
                 <li class="listTags" style="display: none">
-                  <span data-bind="text: $data"></span>
+                  <span data-bind="text: $data"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i data-bind="uniqueName: $data, value: $data" class="fas fa-minus-circle"></i>
                 </li>
               </ul>
             </li>
