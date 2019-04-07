@@ -10,3 +10,11 @@
     position: absolute;
     display: none;
 }
+
+#tags {
+    position: relative;
+    grid-columns: 40px;
+    height: 50%;
+    left: 10%;
+    right: 10%;
+}
